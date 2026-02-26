@@ -29,7 +29,7 @@ public class Prodotto {
     }
 
     public String NomeCompleto() {
-        return codice + nome;
+        return codice + "-" + nome;
     }
 
 }
